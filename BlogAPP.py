@@ -8,7 +8,7 @@ import os
 load_dotenv()
 
 # API key for accessing Groq Langchain service
-groq_api_key = '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'
+groq_api_key = 'GROQ_API_KEY'
 
 def main():
     st.title("Blog Generation System")
