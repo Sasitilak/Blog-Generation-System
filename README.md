@@ -3,7 +3,7 @@
 This code implements a straightforward Blog Generation System using Streamlit and Langchain, accessing the Groq Langchain service via an API key. Users input a topic via a text area, prompting the system to gather additional information from Wikipedia to enhance blog post generation. The Langchain service processes user input, including the topic and accompanying text, using a pre-trained language model ('mixtral-8x7b-32768'). The model generates natural language responses based on the input provided, allowing for the creation of coherent blog content. The resulting blog post is then displayed on the interface, enabling quick and easy blog content generation based on user-provided topics.
 
 
-User Input:
+*User Input:*
 
 After the user enters a blog topic into the text area and clicks the "Generate Blog Post" button, the application proceeds to process the input.
 
