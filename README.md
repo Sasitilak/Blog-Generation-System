@@ -4,9 +4,11 @@ This code implements a straightforward Blog Generation System using Streamlit an
 
 here is the Blog Generation System 
 ![image](https://github.com/Sasitilak/Blog-Generation-System/assets/116880437/4f27562d-f869-4b24-80da-57243f307b15)
-After entering the topic we like and hitting Generate Blog Button we can get a detailed Blog with sections
+After entering the topic we like and hitting Generate Blog Button we can get a detailed Blog with sections:
+
 1.Heading
 2.Introduction
 3.Context
 4.Summary
-![image](https://github.com/Sasitilak/Blog-Generation-System/assets/116880437/f770a5ca-7c62-4b3c-a6e8-8c49e68bbfbb)
+![image](https://github.com/Sasitilak/Blog-Generation-System/assets/116880437/61b17cff-0331-4fff-a04e-eb380f45eb5b)
+
