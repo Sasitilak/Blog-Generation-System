@@ -42,8 +42,8 @@ def main():
                 wiki_summary = wikipedia.summary(e.options[0])
             except wikipedia.exceptions.PageError:
                 # If Wikipedia page not found, generate blog post directly using the topic
-                input_with_reference = f"Create a blog with the Heading, Introduction, context(3 paragraphs), summary using the topic \"{topic}\"."
-                response = conversation(input_with_reference)
+                input_without_reference = f"Create a blog with the Heading, Introduction, context(3 paragraphs), summary using the topic \"{topic}\"."
+                response = conversation(input_without_reference)
                 st.write("Blog")
                 st.write(response['response'])
                 return
